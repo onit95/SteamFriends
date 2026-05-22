@@ -3,9 +3,9 @@ name: 'SteamFriends'
 on:
   # 进行手动控制
   workflow_dispatch:
-  schedule:
+  #schedule:
   # 每天运行一次，如果需要更高频率或者更低的频率改这里即可。
-    - cron: '0 0 * * *'
+  #  - cron: '0 0 * * *'
 
 permissions:
   contents: write
